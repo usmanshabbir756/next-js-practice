@@ -14,7 +14,7 @@ export default function AuthLayout({
         {name:"Forget Password" , link:"/forget-password"}
     ]
     const pathname=usePathname();
-    
+
 
   return (
     <>

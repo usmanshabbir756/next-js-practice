@@ -1,3 +1,13 @@
+"use client";
+import { useRouter } from "next/navigation";
+
+
 export default function first(){
-    return <h1>first page</h1>
+    const router=useRouter();
+
+function homeHendel(){
+    router.replace("/");
+}
+
+    return <button onClick={homeHendel}>Home</button>
 }
