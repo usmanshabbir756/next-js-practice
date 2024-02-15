@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation"
-import { parse } from "path";
 
 export default function ReviewOfId({params}:
     {
